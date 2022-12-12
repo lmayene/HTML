@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center{
+    max-width: 1100;
+    margin: 0 auto;
+    padding:0 2%;
+    display: flex;
+}
+
+header{
+    background-color: white;
+    padding:20px 0;
+    border-bottom:1px solid rgb(200, 200, 200);
+}
+
+/*------------------------ menu ------------------------*/
+.logo{
+    color: #16507b;
+    width: 100%;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.menu{
+    width: 100%;
+    text-align: right;
+    padding:6px 20px;
+}
+
+.menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.menu a:hover{
+    color: #007bff;
+}
+
+/*------------------------ index ------------------------*/
+.main_cta{
+    margin:600px -300px;
+    width: 100%;
+}
+
+.main_cta p{
+    color: white;
+    font-weight: normal;
+    font-size: 17px;
+    margin-left: 7%;
+    max-width: 900;
+    position: fixed; top:70%; left: 1%; right: 5%;
+}
+
+.main_cta a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 25px;
+    position: fixed; top:75%; right: 5%;
+}
+
+.main_cta a:hover{
+    color: #124265;
+}
+
+/*------------------------ introdução ------------------------*/
+.containerI{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cardI{
+    width: 642px;
+    height: 480px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+}
+
+.card_bodyI{
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card_textoI{
+    font-size: 12px;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.cardI:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+/*------------------------ filmes/séries ------------------------*/
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    height: 700px;
+    margin: 40px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+}
+
+.card_header{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.card_img{
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.card_body{
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card_titulo{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card_sinopse{
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.card:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+/*------------------------ minicursos ------------------------*/
+.containerC{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cardC{
+    width: 300px;
+    height: 400px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+}
+
+.card_headerC{
+    width: 100%;
+    height: 100px;
+    overflow: visible;
+}
+
+.card_imgC{
+    min-width: 100%;
+    width: auto;
+    height: 150%;
+}
+
+.card_bodyC{
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card_texto{
+    font-size: 12px;
+    width: 250px;
+    margin: 75px auto;
+}
+
+.card_footer{
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #03042d;
+}
+
+.card_footer a{
+    color: white;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.cardC:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+/*------------------------ livros ------------------------*/
+.containerL{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.livros{
+    width: 300px;
+    height: 400px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+}
+
+.img{
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.livros:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
