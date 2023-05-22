@@ -1,2 +1,3 @@
-# HTML
+# ASTRO
  
+ASTRO é um site que reúne uma ampla variedade de trabalhos e obras relacionadas à astronomia, despertando em mim uma verdadeira paixão pelo assunto. O site possui uma página inicial com uma introdução inspiradora extraída da renomada série Cosmos. Na seção de Livros, são apresentados os meus favoritos sobre astronomia. Os Minicursos oferecem uma seleção de cursos breves e informativos que contribuíram significativamente para o aprimoramento dos meus conhecimentos em astronomia. Por fim, em Filmes/Séries, é possível explorar as capas, sinopses e trilhas sonoras marcantes dos melhores filmes e séries relacionados ao fascinante mundo da astronomia. ASTRO foi desenvolvido utilizando HTML e CSS.
